@@ -1,0 +1,7 @@
+NOVA uses the pasta curves over large natural fields - both are of the form y^2 = x^3 + 5.
+ECs of this form are in the class of curves known as the Weierstrass normal form.
+They form a 2-cycle of curves as desired - number of points on one curve is equal to the size of the field of the next.
+This means the pallas curve has the same number of points as the size of the vesta curve, and vice versa.
+
+Since the fiat-crypto library has built-in implementation for Weierstrass form curves, we can use existing
+implementations from that library to build our library of results of the Pasta 2-cycle of curves.
