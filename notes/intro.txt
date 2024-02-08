@@ -5,3 +5,5 @@ This means the pallas curve has the same number of points as the size of the ves
 
 Since the fiat-crypto library has built-in implementation for Weierstrass form curves, we can use existing
 implementations from that library to build our library of results of the Pasta 2-cycle of curves.
+Additionally, since these curves are taken over large finite fields, we will need to use Coq's big num library to
+represent them.

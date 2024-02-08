@@ -1,0 +1,14 @@
+(* Proof of Security *)
+We first want to define our desired NOVA proof of security.
+The NOVA IVC scheme is knowledge sound if the non-interactive folding scheme is knowledge-sound and the hash function is collision
+resistant.
+
+IVC scheme is a 3-tuple with the following algorithms:
+Setup(1^L, n) -> takes in security parameter 1^L and a polynomial circuit size bound n \in N and outputs a public parameter pp
+P(pp, F, (i, z_0, z_1), \pi) -> public parameter, function that maps {0,1}^2 -> {0,1}, index, initial input, final input, IVC proof,
+and outputs a new IVC proof \pi_1
+V(pp, F, (i, z_0, z_1), \pi) -> outputs an accept or reject state
+
+Essentially, P is the prover that comes up with every next folding scheme and V is the verifier to accept or reject that proof.
+
+Commitment scheme
