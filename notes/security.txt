@@ -1,7 +1,6 @@
 (* Proof of Security *)
 We first want to define our desired NOVA proof of security.
-The NOVA IVC scheme is knowledge sound if the non-interactive folding scheme is knowledge-sound and the hash function is collision
-resistant.
+The NOVA IVC scheme is knowledge sound if the non-interactive folding scheme is knowledge-sound and the hash function is collision resistant.
 
 IVC scheme is a 3-tuple with the following algorithms:
 Setup(1^L, n) -> takes in security parameter 1^L and a polynomial circuit size bound n \in N and outputs a public parameter pp

@@ -1,0 +1,9 @@
+writing code for finite fields - here are the issues
+
+how do records work in Coq?
+
+operations in FF depend on the attributes of the finite field itself - i.e. modulus on size of field
+using field_theory, how to define self-referential records, since operations that define the field also depend on
+attributes of that field
+
+how to refer to size of the finite field - this likely has to do with coq records
