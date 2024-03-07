@@ -1,0 +1,8 @@
+get on zulip to ask questions
+
+equations library
+
+coq discourse
+
+fixed issue with non-decreasing fixpoint
+
